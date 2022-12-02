@@ -42,7 +42,7 @@ const Contact = () => {
             <SiBuymeacoffee className='contact__option-icon' />
             <h4>Buy me a Coffee</h4>
             <h5 style={{fontSize:'0.8rem'}}>Support</h5>
-            <a href="https://www.buymeacoffee.com/">Let's Go</a>
+            <a href="https://www.buymeacoffee.com/saurabhsri">Let's Go</a>
           </article>          
         </div>
 
