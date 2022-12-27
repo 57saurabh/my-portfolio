@@ -44,8 +44,7 @@ const About = () => {
           </article>
         </div>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis optio, animi atque accusantium quae provident velit cum, recusandae magnam veniam, maxime necessitatibus quibusdam dolor officia numquam! Ad consequuntur ipsam in quia quas.
-        </p>
+           Hello! My name is Saurabh Srivastava and I am a frontend developer with a passion for creating visually stunning and user-friendly web applications. With 6 months of experience in the industry, I have a strong foundation in HTML, CSS, JavaScript, and react and am always looking to expand my skillset and stay up-to-date with the latest technologies.  </p>
         <a href="#contact" className='btn btn-primary'>Let's Talks</a>
         
       </div>
