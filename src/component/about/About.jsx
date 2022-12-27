@@ -32,15 +32,15 @@ const About = () => {
          
           <article className="about__card">
             <FiUsers className='about__icon' />
-            <h5>Clients</h5>
-            <small>10 Clients Worldwide</small>
+            <h5>Referred</h5>
+            <small>5+ Dev</small>
           </article>
          
          
           <article className="about__card">
             <VscFolderLibrary className='about__icon' />
             <h5>Projects</h5>
-            <small>20+ Completed Project</small>
+            <small>10+ Completed Project</small>
           </article>
         </div>
         <p>

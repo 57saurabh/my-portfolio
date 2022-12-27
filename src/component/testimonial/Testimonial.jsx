@@ -1,7 +1,7 @@
 import React from 'react'
 import './testimonial.css'
-import avatar1 from "../../assests/avatar1.jpg";
-import avatar2 from "../../assests/avatar2.jpg";
+import avatar1 from "../../assests/avatar1.png";
+import avatar2 from "../../assests/avatar2.jfif";
 import avatar3 from "../../assests/avatar3.jpg";
 import avatar4 from "../../assests/avatar4.jpg";
 
@@ -14,24 +14,16 @@ import 'swiper/css/pagination';
 const data= [
   {
     avatar:avatar1,
-    name:'avatar1',
-    review:'    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quia perferendis dolorum quis perspiciatis error cum corrupti, nesciunt placeat deleniti ipsum, voluptate at quidem, commodi dicta autem laborum natus inventore?'
+    name:<div>Utkarsh Goel <small>(Dev, ABESEC)</small></div>,
+    review:'I have mentored Saurabh Srivastava and have been consistently impressed with his dedication to learn and adapt quickly. He has a strong foundation of HTML, CSS, React js, and JavaScript. He excel at building intuitive and visually appealing user interfaces. Saurabh is a team player with excellent communication skills and I highly recommend him for any opportunity.'
   },
+ 
   {
     avatar:avatar2,
-    name:'avatar2',
-    review:'    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quia perferendis dolorum quis perspiciatis error cum corrupti, nesciunt placeat deleniti ipsum, voluptate at quidem, commodi dicta autem laborum natus inventore?'
+    name:<div>Yash Bansal <small>(MERN Dev, ABESEC)</small></div>,
+    review:'   Saurabh Srivastava is a skilled and reliable React developer with strong HTML, CSS, and JavaScript skills. They excel at building intuitive and visually appealing user interfaces and are a valuable asset to any team. Saurabh Srivastava is a team player with excellent communication skills and is always willing to lend a helping hand to their teammates. I highly recommend them for any future projects.'
   },
-  {
-    avatar:avatar3,
-    name:'avatar3',
-    review:'    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quia perferendis dolorum quis perspiciatis error cum corrupti, nesciunt placeat deleniti ipsum, voluptate at quidem, commodi dicta autem laborum natus inventore?'
-  },
-  {
-    avatar:avatar4,
-    name:'avatar4',
-    review:'    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quia perferendis dolorum quis perspiciatis error cum corrupti, nesciunt placeat deleniti ipsum, voluptate at quidem, commodi dicta autem laborum natus inventore?'
-  },
+  
 ]
 
 const Testimonial = () => {
